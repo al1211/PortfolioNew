@@ -23,7 +23,7 @@ export default function Achievement() {
             >
               {achievementSection.title}
             </h1>
-            <p
+            {/* <p
               className={
                 isDark
                   ? "dark-mode subTitle achievement-subtitle"
@@ -31,7 +31,7 @@ export default function Achievement() {
               }
             >
               {achievementSection.subtitle}
-            </p>
+            </p> */}
           </div>
           <div className="achievement-cards-div">
             {achievementSection.achievementsCards.map((card, i) => {
@@ -44,7 +44,7 @@ export default function Achievement() {
                     description: card.subtitle,
                     image: card.image,
                     imageAlt: card.imageAlt,
-                    footer: card.footerLink
+                    // footer: card.footerLink
                   }}
                 />
               );

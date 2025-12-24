@@ -20,8 +20,8 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Anil kumar",
+  title: "Hi all, I'm Anil kumar",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
@@ -33,13 +33,9 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/al1211",
+  linkedin: "https://www.linkedin.com/in/anil-kumar-527b39310/",
+  gmail: "anil.kumar0372915@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -89,32 +85,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,24 +102,24 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Vidya Institute Of Create Teaching",
+      logo: require("./assets/images/images.jpeg"),
+      subHeader: "Computer Science",
+      duration: "August 2022 - August 2025",
+      desc: "Actively participated in web design activities, gaining hands-on experience in HTML, CSS, JavaScript, and responsive UI design. Developed strong problem-solving skills and practical knowledge of modern web technologies through academic projects and participation."
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     }
+    // {
+    //   schoolName: "Stanford University",
+    //   logo: require("./assets/images/stanfordLogo.png"),
+    //   subHeader: "Bachelor of Science in Computer Science",
+    //   duration: "September 2013 - April 2017",
+    //   desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+    //   descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    // }
   ]
 };
 
@@ -174,29 +150,29 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "MERN-Stack Developer",
+      company: "Apna College",
+      companylogo: require("./assets/images/apnaCollege.png"),
+      date: "Jan 2025 – Present",
+      desc: "Completed comprehensive MERN Stack training covering MongoDB, Express.js, React.js, and Node.js. Gained hands-on experience by building full-stack web applications. Successfully completed the course and earned a certificate of completion."
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Web Development",
+      company: "Internshala",
+      companylogo: require("./assets/images/intershala.jpg"),
+      date: "Dec 2021 - Feb 2022",
+      desc: "Successfully completed a 8 weeks online certified training on Web Development. The training consisted of HTML, CSS, Bootstrap, DBMS, PHP, JS, React, and Final Project modules. In the final assessment, I scored 66% marks. "
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Web Development Workshop",
+      company: "SpikiTech",
+      companylogo: require("./assets/images/spkittech2.png"),
+      date: "Nov 2025 – Dec 2025",
+      desc: "Successfully completed a Web Development workshop organized by Spikitech. Gained practical exposure to HTML, CSS, JavaScript, and basic web development concepts. Participated in hands-on sessions focused on building responsive web pages and understanding real-world development workflows."
     }
   ]
 };
@@ -213,28 +189,28 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "A Full-Stack MERN Application for Managing Income and Expenses",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Screenshot from 2025-12-23 14-55-25.png"),
+      projectName: "Expense Tracker",
+      projectDesc: "The Expense Tracker is a full-stack web application designed to help users monitor and manage their personal finances effectively. It allows users to record income and expenses, categorize transactions, and view financial summaries through a clean and responsive interface. ",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://expensetrackersappho.netlify.app/login"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/course.png"),
+      projectName: "Course Bloger",
+      projectDesc: "Course Vlogger is a modern, responsive web application designed to host and share educational video content, specifically for vlog-style course creators. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js) and styled with Tailwind CSS, the platform offers a sleek and intuitive user experience for both creators and learners.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://anil-course-bloger.netlify.app/"
         }
       ]
     }
@@ -252,10 +228,10 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "APNA COLLEGE",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Successfully completed the MERN Stack (Sigma Batch) course from Apna College. Gained hands-on experience in MongoDB, Express.js, React.js, and Node.js by building full-stack web applications. Earned a certificate of completion, validating practical knowledge of modern web development.",
+      image: require("./assets/images/Anil-Simga-Certificate -1_page-0001.jpg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
@@ -273,10 +249,10 @@ const achievementSection = {
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "INTERNSHALA ",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Web Development internship program with hands-on training in HTML, CSS, JavaScript, and MERN Stack basics. Worked on real-world web development tasks, improved front-end and back-end skills, and gained practical experience in building responsive and dynamic web applications. Successfully completed the internship and received a certificate of completion.",
+      image: require("./assets/images/Web Development Training - Certificate of Completion (1)_page-0001.jpg"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
@@ -287,9 +263,22 @@ const achievementSection = {
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Spikitech",
+      subtitle: "Web Developer Intern at Spikitech – Worked on real-world web development projects, creating responsive and user-friendly websites using modern web technologies. Gained hands-on experience with frontend development, UI design, and project collaboration.",
+      image: require("./assets/images/spikitech.jpg"),
+      imageAlt: "PWA Logo",
+      footerLink: [
+        {name: "Certification", url: ""},
+        {
+          name: "Final Project",
+          url: "https://pakistan-olx-1.firebaseapp.com/"
+        }
+      ]
+    },
+     {
+      title: "Web development",
+      subtitle: "Web Developer Intern at Spikitech – Worked on real-world web development projects, creating responsive and user-friendly websites using modern web technologies. Gained hands-on experience with frontend development, UI design, and project collaboration.",
+      image: require("./assets/images/ANIL KUMAR-Connect the web tags_page-0001.jpg"),
       imageAlt: "PWA Logo",
       footerLink: [
         {name: "Certification", url: ""},
@@ -372,8 +361,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91- 7417802350",
+  email_address: "anil.kumar0372915@gmail.com"
 };
 
 // Twitter Section
