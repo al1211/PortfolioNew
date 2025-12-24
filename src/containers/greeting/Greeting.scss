@@ -37,6 +37,7 @@
 .button-greeting-div {
   display: flex;
   margin-top: 40px;
+  // flex-wrap: wrap;
 }
 .download-link-button {
   text-decoration: none;
@@ -120,8 +121,11 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 412px) {
   .main {
     width: auto;
+  }
+  .button-greeting-div{
+    flex-wrap: wrap;
   }
 }

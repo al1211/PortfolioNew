@@ -3,7 +3,7 @@ import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
-import logo from "../../assets/images/secondlogo.png"
+import logo from "../../assets/images/secondlogo.png";
 import {
   greeting,
   workExperiences,
@@ -32,42 +32,46 @@ function Header() {
           <img src={logo} alt="profile" />
           {/* <h1>hell</h1> */}
         </div>
-        <input className="menu-btn" type="checkbox" id="menu-btn" />
-        <label
-          className="menu-icon"
-          htmlFor="menu-btn"
-          style={{color: "white"}}
-        >
-          <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
-        </label>
-        <ul className={isDark ? "dark-menu menu" : "menu"}>
-          {viewExperience && (
-            <li>
-              <a href="#experience">Work Experiences</a>
-            </li>
-          )}
+        <div className="list-item">
+          <input className="menu-btn" type="checkbox" id="menu-btn" />
+          <label
+            className="menu-icon"
+            htmlFor="menu-btn"
+            style={{color: "white"}}
+          >
+            <span
+              className={isDark ? "navicon navicon-dark" : "navicon"}
+            ></span>
+          </label>
+          <ul className={isDark ? "dark-menu menu" : "menu"}>
+            {viewExperience && (
+              <li>
+                <a href="#experience">Work Experiences</a>
+              </li>
+            )}
 
-          {viewAchievement && (
-            <li>
-              <a href="#achievements">Achievements</a>
-            </li>
-          )}
+            {viewAchievement && (
+              <li>
+                <a href="#achievements">Achievements</a>
+              </li>
+            )}
 
-          {viewResume && (
+            {viewResume && (
+              <li>
+                <a href="#resume">Resume</a>
+              </li>
+            )}
             <li>
-              <a href="#resume">Resume</a>
+              <a href="#contact">Contact Me</a>
             </li>
-          )}
-          <li>
-            <a href="#contact">Contact Me</a>
-          </li>
-          <li>
-            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a>
-              <ToggleSwitch />
-            </a>
-          </li>
-        </ul>
+            <li>
+              {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+              <a>
+                <ToggleSwitch />
+              </a>
+            </li>
+          </ul>
+        </div>
       </header>
     </Headroom>
   );

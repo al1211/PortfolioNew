@@ -24,7 +24,9 @@
   background-color: $lightBackground1;
   max-width: 100%;
   padding: 15px 20px;
-  margin: 0px auto;
+  // margin: 0px auto;
+  display: flex;
+
 }
 
 .header ul {
@@ -160,7 +162,7 @@
 
 @media (min-width: 48em) {
   .header li {
-    float: left;
+    float: right;
   }
   .header {
     display: flex;
@@ -195,8 +197,7 @@
 /* Mobile */
 @media (max-width: 480px) {
   .img-wrapper {
-    width: 90px;
-    height: 90px;
+  display: none;
   }
 }
 /* Tablet */
